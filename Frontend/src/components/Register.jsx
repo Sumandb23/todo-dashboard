@@ -19,11 +19,7 @@ function Register(){
         setLoading(true);
 
         try{
-<<<<<<< HEAD
-            await axios.post("https://todo-dashboard-wm5a.onrender.com/api/auth/register",{ name:name, email:email, password:password})
-=======
             await axios.post("https://todo-dashboard-wm5a.onrender.com/",{ name:name, email:email, password:password})
->>>>>>> 65e1330c66a56402ddf18abe0144e912a477facf
 
             alert("Registartion Successful");
             navigate("/login");
