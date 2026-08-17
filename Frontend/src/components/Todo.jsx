@@ -15,7 +15,11 @@ function Todo() {
 
     const token = localStorage.getItem("token");
 
+<<<<<<< HEAD
     const API_URL = "https://todo-dashboard-wm5a.onrender.com/api/todos";
+=======
+    const API_URL = "https://todo-dashboard-wm5a.onrender.com//api/todos";
+>>>>>>> 65e1330c66a56402ddf18abe0144e912a477facf
 
     const getTodo = async () => {
         try {
